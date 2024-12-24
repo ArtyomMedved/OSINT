@@ -181,7 +181,7 @@ async def handle_image(update: Update, context: CallbackContext) -> None:
 
 
 def main() -> None:
-    TOKEN = '7932231776:AAE1Qx4ZieIqj7YscZNZMxCtxTFPByhTVco'
+    TOKEN = 'TOKEN'
 
     application = Application.builder().token(TOKEN).build()
 
